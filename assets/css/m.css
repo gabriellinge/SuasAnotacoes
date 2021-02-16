@@ -1,0 +1,155 @@
+body{
+  padding: 0 10%;
+  margin: 0;
+  font-family: Arial;
+  background: #eee;
+}
+
+#models{
+  display: none;
+}
+
+.box{
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.box-header{
+  background: #101010;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  position: relative;
+  display: flex!important;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 63px;
+}
+
+.box-subconteudo{
+  background: #202020;
+  margin: 2px 0;
+  color: #eee;
+  padding: 10px;
+  position: relative;
+  min-height: 15px;
+}
+
+.box-subconteudo .edit{
+  top: 5px;
+  right: 5px;
+}
+
+.box-add{
+  background: #303030;
+}
+
+.box-add textarea, .txtarea{
+  background: transparent;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  resize: vertical;
+  font: 16px Arial;
+
+}
+
+.txtareaedit{
+  padding: 0px;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.box-add button, .btnadd{
+  padding: 10px 20px;
+  color: white;
+  background: #151515;
+  cursor: pointer;
+}
+
+.noborder{
+  outline: none;
+  border: none;
+}
+
+.addtitle{
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.addtitle input{
+  width: 80%;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.addtitle button{
+  padding: 10px 40px;
+  background: #3a3a3a;
+  float: right;
+}
+
+.edit{
+  width: max-content;
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}
+
+.btnsubtitle{
+  padding: 5px 15px!important;
+  top: 5px;
+  right: 5px;
+}
+
+.editTitleInput{
+  width: 100%;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: white;
+}
+
+.titulo-box{
+  min-height: 23px;
+  flex: 1;
+}
+
+.data{
+  font-size: 15px;
+  color: #aaa;
+}
+
+#option{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #101010;
+  padding: 10px 20px;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.btns-gerenciar{
+  background: #050505;
+  padding: 5px;
+}
+
+.btnmenu{
+  margin: 0 8px 0 -10px;
+  font-size: 20px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
