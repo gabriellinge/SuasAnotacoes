@@ -9,3 +9,7 @@ O armazenamentos das informações adicionadas no **Suas Anotações** são tota
 # Como usar?
 
 Você pode usar o projeto apenas abrendo a index.html no seu navegado, ou colocando a index em um servidor apache.
+
+# Uso:
+
+![](https://i.imgur.com/gkbAqWI.png)
